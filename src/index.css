@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* app.js */
+.app{
+  padding: 2%;
+}
+#fname{
+  margin: 1%;
+}
+#lname{
+  margin: 1%;
+}
+.app-result{
+  width: 500px;
+  margin-left: 1%;
+  padding-left: 1%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* form.js */
+.form{
+  padding: 2%;
+}
+#fnum{
+  margin: 1%;
+}
+#lnum{
+  margin: 1%;
+}
+.form-result{
+  width: 200px;
+  margin-left: 1%;
+  padding-left: 1%;
+  border-bottom: 1px solid #ddd;
+}
+.container{
+  text-align: center;
+  background-color: #ddd;
+  color: #ddd;
+  background-color: rgb(3, 3, 17);
+  padding: 2%;
+  margin: 2%;
+  width: 50%;
+  border: #8f8f8f;
+  margin-left: 25%;
+  border:gray 2px solid;
+}
+.container button{
+  padding: 0.5%; padding-left: 0.75%; padding-right: 0.75%;
+  margin-left: 2%;
+  border-radius: 10px;
+  border: 1px solid rgb(1, 78, 1);
+  background-color: green;
+  cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+  .container{
+    width: 90%;
+    margin-left: 2%;
+  }
+  
+}
